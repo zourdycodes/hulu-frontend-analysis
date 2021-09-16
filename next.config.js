@@ -1,7 +1,12 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['restcountries.eu'],
+    domains: [
+      'restcountries.eu',
+      'image.tmdb.org',
+      'links.papareact.com',
+      'hulu-matchmaker.s3.us-west-2.amazonaws.com',
+    ],
   },
   env: {
     mapbox_key:
