@@ -37,6 +37,7 @@
     "no-return-assign": "off",
     "no-console": "off",
     "global-require": "off",
-    "jsx-a11y/anchor-is-valid": "off"
+    "jsx-a11y/anchor-is-valid": "off",
+    "camelcase": "off"
   }
 }
