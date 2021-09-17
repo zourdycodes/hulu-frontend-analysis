@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import { Header } from '../components';
+import { Header, NavBar } from '../components';
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       </Head>
 
       <Header />
+      <NavBar />
     </div>
   );
 }
