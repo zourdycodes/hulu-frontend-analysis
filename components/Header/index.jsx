@@ -6,8 +6,8 @@ import { navigationData } from '../../devData/navigation';
 
 export const Header = () => {
   return (
-    <header>
-      <div>
+    <header className="flex flex-col items-center justify-between h-auto m-5 sm:flex-row ">
+      <div className="flex flex-grow justify-evenly max-w-2xl">
         {navigationData.map((item, index) => {
           return <HeaderItem key={index} title={item.title} Icon={item.icon} />;
         })}
