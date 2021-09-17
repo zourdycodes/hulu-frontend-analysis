@@ -38,6 +38,7 @@
     "no-console": "off",
     "global-require": "off",
     "jsx-a11y/anchor-is-valid": "off",
-    "camelcase": "off"
+    "camelcase": "off",
+    "react/display-name": "off"
   }
 }
